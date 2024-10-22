@@ -1,7 +1,7 @@
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-from pandas.plotting import register_matplotlib_converters
+import matplotlib.pyplot as plt # type: ignore
+import pandas as pd # type: ignore
+import seaborn as sns # type: ignore
+from pandas.plotting import register_matplotlib_converters # type: ignore
 register_matplotlib_converters()
 
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
